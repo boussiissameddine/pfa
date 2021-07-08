@@ -1,0 +1,2 @@
+SHA256(Ubuntu 64-bit.ovf)= 681cb49b35aa5ac21caca6249c2e027f7bfd1385c6501ddf2eff1fd31bd4cd15
+SHA256(Ubuntu_64-bit-disk1.vmdk)= 558ea620215b2e1e983be26f94c2a60fcd5f101baba6f9f3e2f43fa080ebb0ac
