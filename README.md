@@ -1,2 +1,0 @@
-# pfa kubernetes
-okkk
