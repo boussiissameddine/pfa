@@ -3,7 +3,7 @@ node('jenkins-slave') {
      stage('test pipeline') {
         sh(script: """
             echo "hello"
-           git clone https://https://github.com/boussiissameddine/pfa.git
+           git clone https://github.com/boussiissameddine/pfa.git
            cd ./pfa/golang
            
            docker build . -t test
