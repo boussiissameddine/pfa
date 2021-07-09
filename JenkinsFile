@@ -3,8 +3,8 @@ node('jenkins-slave') {
      stage('test pipeline') {
         sh(script: """
             echo "hello"
-           git clone https://github.com/marcel-dempers/docker-development-youtube-series.git
-           cd ./docker-development-youtube-series/golang
+           git clone https://https://github.com/boussiissameddine/pfa.git
+           cd ./pfa/golang
            
            docker build . -t test
         """)
