@@ -1,4 +1,5 @@
-node('jenkins-slave') {
+pipeline {
+    node('jenkins-slave') {
     
      stage('test pipeline') {
         sh(script: """
@@ -9,4 +10,5 @@ node('jenkins-slave') {
            docker build . -t test
         """)
     }
+}
 }
