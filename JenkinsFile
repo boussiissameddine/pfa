@@ -1,12 +1,12 @@
-node('jenkins-slave') {
+ode('jenkins-slave') {
     
-     stage('test pipeline') {
+     stage('pfakube pipeline') {
         sh(script: """
             echo "hello"
            git clone https://github.com/boussiissameddine/pfa.git
            cd ./pfa/golang
            
-           docker build . -t test
+           docker build . -t pfakube
         """)
     }
 }
